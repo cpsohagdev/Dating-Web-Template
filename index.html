@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <script
+      src="https://kit.fontawesome.com/594c725306.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light custom-bg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./image/logo.png" alt="" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav our-custom-menu ml-auto">
+            <li><a href="#"><span>Home<i class="fas fa-chevron-down"></i></span></a> 
+              <ul>
+                <li><a href="#">Home 1</a></li>
+                <li><a href="#">Home 2</a></li>
+                <li><a href="#">Home 3</a></li>
+                <div>
+                  <span><i class="fas fa-sort-up"></i></span>
+                </div>
+              </ul>
+            </li>
+            <li><a href="#">Community<i class="fas fa-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Community 1</a></li>
+              <li><a href="#">Community 2</a></li>
+              <li><a href="#">Community 3</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Shop</a></li>
+            <li>
+              <a href="#">pages<i class="fas fa-chevron-down"></i></a>
+              <ul>
+                <li><a href="#">User Panel</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Community Single</a></li>
+                <li><a href="#">Members</a></li>
+                <li><a href="#">Shop sidebar</a></li>
+                <li><a href="#">Single Profile One</a></li>
+                <li><a href="#">Single Profile Two</a></li>
+                <li><a href="#">Single Profile Three</a></li>
+                <li><a href="#">Shop Details</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">404</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">blog<i class="fas fa-chevron-down"></i></a>
+              <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Blog single</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <div class="header-info d-flex align-items-center">
+            <div>
+              <span class="search-span"><i class="fas fa-search"></i></span>
+            </div>
+            <div class="drop-sec">
+              <select name="" id="">
+                <option>EN</option>
+                <option>IN</option>
+                <option>BN</option>
+              </select>
+            </div>
+            <div class="user-img">
+              <img src="./image/user-demo.png" alt="" />
+              <div>
+                <span><i class="fas fa-sort-down"></i></span>
+              </div>
+              <ul>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">LogOut</a></li>
+                <div class="upper">
+                  <span><i class="fas fa-sort-up"></i></span>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-min">
+      <div class="hero-ing">
+        <img src="./image/aimg3.png" alt="" />
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col md-12">
+            <div class="content">
+              <div class="hero-conent">
+                <div class="d-flex align-items-center selec-chek-male">
+                  <span class="span">I am a :</span>
+                  <div class="fast-c">
+                    <input id="male" type="radio" name="gender1" />
+                    <label for="male">Male</label>
+                  </div>
+                  <div>
+                    <input id="name" type="radio" name="gender1" />
+                    <label for="name">Male</label>
+                  </div>
+                </div>
+
+                <hr />
+
+                <div class="d-flex selec-chek-man">
+                  <span class="span">Seeking a :</span>
+                  <div class="fast-c">
+                    <input id="man" type="radio" name="gender" />
+                    <label for="man">Man</label>
+                  </div>
+                  <div>
+                    <input id="Woman" type="radio" name="gender" />
+                    <label for="Woman">Woman</label>
+                  </div>
+                </div>
+
+                <hr />
+
+                <div class="d-flex selec-chek-age">
+                  <span class="span">Age :</span>
+                  <div class="fast-c">
+                    <select class="fast-age" class="fast-select" name="" id="">
+                      <option>18</option>
+                      <option>20</option>
+                      <option>24</option>
+                      <!-- <div class="icons-down">
+                                              <i class="fas fa-chevron-down"></i>
+                                            </div> -->
+                    </select>
+                  </div>
+                  <div>
+                    <select name="" id="">
+                      <option>30</option>
+                      <option>35</option>
+                      <option>40</option>
+                    </select>
+                  </div>
+                </div>
+
+                <hr />
+
+                <div class="d-flex selec-chek-country">
+                  <span class="span">Country :</span>
+                  <div class="fast-c">
+                    <select name="" id="">
+                      <option>Select your Country</option>
+                      <option>India</option>
+                      <option>Japan</option>
+                      <option>Bangladesh</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="botton-content">
+                  <button class="btn btn-primary">Join Now!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- hero sub section -->
+    </section>
+
+    <div class="container-fluid">
+      <div class="EASY-STEPS">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="content-fast">
+              <h2>3 EASY STEPS</h2>
+              <p>
+                To Start a Serious <br />
+                Relationship
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="content d-flex justify-content-around">
+              <div class="raund-style">
+                <div class="number">1</div>
+                <p class="label">Join</p>
+              </div>
+
+              <div class="raund-style">
+                <div class="number">2</div>
+                <p class="label">Search</p>
+              </div>
+
+              <div class="raund-style">
+                <div class="number">3</div>
+                <p class="label">Find Love</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="content-last">
+              <button class="btn btn-primary">Join Now!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =================================== starting Meet New People Today! ============================================ -->
+
+    <section class="Meet-New-People-Today">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="content-fast">
+              <h3>Meet New People Today!</h3>
+              <h2>Start Flirting</h2>
+              <p class="fast-p">
+                In our modern day and age dating apps have become an integral
+                part of our lives. They allow you to check the profile of
+                singles living near you, to chat with them, to meet them and
+                maybe to fall in love.
+              </p>
+              <p class="last-p">
+                If you’re searching for a simple dating app with free features
+                allowing to meet singles, you’re in good hands with Pairko. With
+                Pairko you get all you need from a mobile dating app, which
+                presents you thousands of users through your smartphone in a
+                very pleasant experience.
+              </p>
+              <button class="btn btn-primary">Seek Your Partner</button>
+            </div>
+          </div>
+          <div class="col md-6">
+            <div class="content-lest">
+              <img class="carcle-img" src="./image/circle.png" alt="">
+              <div class="img-upper-image">
+                <img src="./image/illutration.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- ======================================starting Latest Registered ============================= -->
+
+<section class="starting-Latest-Registered">
+<div class="container-fluid">
+<div class="row">
+  <div class="col-md-4">
+    <div class="content-fast content-fast-and">
+      <h3>Latest Registered </h3>
+      <h2>Members </h2>
+      <p>if you have been looking for the someone special of your life for long, then your search ends here </p>
+    </div>
+  </div>
+  <div class="col md-8">
+    <div class="content-last">
+      <div class="row">
+        <div class="col md-4">
+         <div class="content-fast text-center">
+          <img src="./image/p4.png" alt="">
+          <h2>DANA MILES</h2>
+          <h4>25 years Old</h4>
+         </div>
+
+        </div>
+        <div class="col md-4">
+          <div class="content-fast text-center">
+           <img src="./image/p5.png" alt="">
+           <h2>DANA MILES</h2>
+           <h4>25 years Old</h4>
+          </div>
+ 
+         </div>
+         <div class="col md-4">
+          <div class="content-fast text-center">
+           <img class="small-img" src="./image/p4.png" alt="">
+           <h2>DANA MILES</h2>
+           <h4>25 years Old</h4>
+          </div>
+ 
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======================================Ending Latest Registered ============================= -->
+    
+    
+    
+    
+    
+    
+    
+    <!-- ======================================Starting Amazing Features  ============================= -->
+    
+    <section class="Amazing-Features ">
+      <div class="content">
+        <h4>An Exhaustive List Of </h4>
+        <h2>Amazing Features </h2>
+        <p>To find meaningful connections, dates, and life partners. </p>
+      </div>
+      <div class="left-right-content">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="content-img">
+              <img src="./image/left-img.jpg" alt="">
+              <div class="iner-img-info">
+                  <div class="content-items">
+                    <h5>START NOW FOR</h5>
+                  <h3>FREE</h3>
+                  <h4>7 DAY TRIAL</h4>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="content-right-content d-flex ">
+              <div class="img"><img src="./image/i1.png" alt=""></div>
+              <div class="left-img-content">
+                <h2>Simple to use </h2>
+                <p>Simple steps to follow to have a matching <br> connection. </p>
+              </div>
+              
+            </div>
+            <div class="content-right-content d-flex ">
+              <div class="img"><img src="./image/i2.png" alt=""></div>
+              <div class="left-img-content">
+                <h2>Smart Matching  </h2>
+                <p>Simple steps to follow to have a matching <br> connection. </p>
+              </div>
+              
+            </div>
+            <div class="content-right-content d-flex ">
+              <div class="img"><img src="./image/i3.png" alt=""></div>
+              <div class="left-img-content">
+                <h2>Filter very fast  </h2>
+                <p>Simple steps to follow to have a matching <br> connection. </p>
+              </div>
+              
+            </div>
+            <div class="content-right-content d-flex ">
+              <div class="img"><img src="./image/i4.png" alt=""></div>
+              <div class="left-img-content">
+                <h2>Cool community  </h2>
+                <p>Simple steps to follow to have a matching <br> connection. </p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    <!-- ======================================Ending Amazing Features  ============================= -->
+    
+    
+    
+    <!-- =========================Stating Best Ways to Find Your True Sole Mate========================== -->
+    
+    
+    <section class="Best-Ways">
+      <div class="container-fluid">
+        <div class="content">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="content-fast">
+                <h2>Best Ways to Find Your <br> True Sole Mate</h2>
+                <button class="btn btn-primary">Join Now!</button>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="content-last">
+                <img src="./image/img.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    <!-- =========================Ending Best Ways to Find Your True Sole Mate========================== -->
+    
+    
+    
+    <section class="Success-Stories">
+      <div class="content">
+        <h4>Love in faith</h4>
+        <h2>Success Stories</h2>
+        <p>Aliquam a neque tortor. Donec iaculis auctor turpis. Eporttitor <br> mattis ullamcorper urna. Cras quis elementum  </p>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="content-fast">
+              <img src="./image/img1.jpg" alt="">
+           <div class="info">
+            <h5>6 days ago </h5>
+            <h2>Philosophy of love </h2>
+            <p>Love for one another and love for yourself is priceless. </p>
+            
+            <div class="left-image d-flex justify-content-between">
+              <div>
+                <i class="fas fa-globe-americas"></i>
+                <span>Public</span>
+              </div>
+              <div>
+                <i class="fas fa-users"></i>
+                <span>100</span>
+              </div>
+            </div>
+           </div>
+          </div>
+          
+        </div>
+        <div class="col-md-4">
+          <div class="content-fast">
+            <img src="./image/img2.png" alt="">
+         <div class="info">
+          <h5>6 days ago </h5>
+          <h2>Philosophy of love </h2>
+          <p>Love for one another and love for yourself is priceless. </p>
+          
+          <div class="left-image d-flex justify-content-between">
+            <div>
+              <i class="fas fa-globe-americas"></i>
+              <span>Public</span>
+            </div>
+            <div>
+              <i class="fas fa-users"></i>
+              <span>100</span>
+            </div>
+          </div>
+         </div>
+        </div>
+        
+      </div>
+      <div class="col-md-4">
+        <div class="content-fast">
+          <img src="./image/img3.png" alt="">
+       <div class="info">
+        <h5>6 days ago </h5>
+        <h2>Philosophy of love </h2>
+        <p>Love for one another and love for yourself is priceless. </p>
+        
+        <div class="left-image d-flex justify-content-between">
+          <div>
+            <i class="fas fa-globe-americas"></i>
+            <span>Public</span>
+          </div>
+          <div>
+            <i class="fas fa-users"></i>
+            <span>100</span>
+          </div>
+        </div>
+       </div>
+      </div>
+      
+    </div>
+      </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    <!-- People joined already!  -->
+    
+    
+    
+    <section class="People-joined-already">
+     
+      <div class="content">
+        <h2>455,326,234 </h2>
+        <h3>People joined already! </h3>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+           <div class="content-lest">
+            <img src="./image/si4.png" alt="">
+            <h2>350M</h2>
+            <h4>Messages sent per day</h4>
+           </div>
+            
+          </div>
+          <div class="col-md-3">
+            <div class="content-lest">
+             <img src="./image/si5.png" alt="">
+             <h2>447M</h2>
+             <h4>Registered users worldwidey</h4>
+            </div>
+             
+           </div>
+           <div class="col-md-3">
+            <div class="content-lest">
+             <img src="./image/si6.png" alt="">
+             <h2>60 M</h2>
+             <h4>Monthly active users</h4>
+            </div>
+             
+           </div>
+           <div class="col-md-3">
+            <div class="content-lest">
+             <img src="./image/si7.png" alt="">
+             <h2>300 K</h2>
+             <h4>New daily sign ups</h4>
+            </div>
+             
+           </div>
+        </div>
+      </div>
+     
+    </section>
+    
+    
+   
+    <!-- Love in faith  -->
+
+
+    <section class="Love-in-faith">
+      <div class="container-fluid">
+        <div class="content">
+          <h4>Love in faith </h4>
+          <h2>Success Stories </h2>
+          <p>Aliquam a neque tortor. Donec iaculis auctor turpis. Eporttitor <br> mattis ullamcorper urna. Cras quis elementum </p>
+        </div>
+      
+      <div class="card-section">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card1">
+            <img src="./image/img1.jpg" alt="">
+           <div class="img-info">
+            <h2>Love horoscope for Cancer There will be surprises...</h2>
+            <h4>December 10, 2021 </h4>
+            <div class="card-info d-flex justify-content-between">
+             <div class="icons">
+              <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+              <a href="#"> <i class="fab fa-twitter"></i> </a>
+              <a href="#"> <i class="fab fa-instagram"></i> </a>
+             </div>
+             <div class="link-tag">
+               <a href="#">Read More</a>
+             </div> 
+           </div>
+            </div>
+            <div class="extra-img">
+              <img src="./image/p1.png" alt="">
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-4">
+          <div class="card1">
+            <img src="./image/img2.png" alt="">
+           <div class="img-info">
+            <h2>‘love at first sight’ is all about initial attraction... </h2>
+            <h4>December 10, 2021 </h4>
+            <div class="card-info d-flex justify-content-between">
+             <div class="icons">
+              <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+              <a href="#"> <i class="fab fa-twitter"></i> </a>
+              <a href="#"> <i class="fab fa-instagram"></i> </a>
+             </div>
+             <div class="link-tag">
+               <a href="#">Read More</a>
+             </div> 
+           </div>
+            </div>
+            <div class="extra-img">
+              <img src="./image/p2.png" alt="">
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-4">
+          <div class="card1">
+            <img src="./image/img3.png" alt="">
+           <div class="img-info">
+            <h2>What women actually want to feel on their... </h2>
+            <h4>December 10, 2021 </h4>
+            <div class="card-info d-flex justify-content-between">
+             <div class="icons">
+              <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+              <a href="#"> <i class="fab fa-twitter"></i> </a>
+              <a href="#"> <i class="fab fa-instagram"></i> </a>
+             </div>
+             <div class="link-tag">
+               <a href="#">Read More</a>
+             </div> 
+           </div>
+            </div>
+            <div class="extra-img">
+              <img src="./image/p3.png" alt="">
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+
+
+    <!-- Upgrade Your Profile  -->
+
+<section class="Upgrade-Your-Profile ">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 custom">
+      <h4>Upgrade Your Profile </h4>
+      <h2>MemeberShip Plan</h2>
+      <p>Choose from one of our membership levels and unlock features you need.Benefit from Peyamba at its maximum capacity by choosing the plan that suits you</p>
+      <button class="btn btn-primary">MemeberShip details</button>
+    </div>
+    <div class="col-md-6">
+      <img src="./image/right-img.png" alt="">
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+
+<!-- Sign up to recieve a monthly email on the latest news! -->
+
+<footer class="Sign-up-to-recieve">
+<div class="container-fluid">
+  <div class="content-em-input">
+    <div  class="email"><img src="./image/n-icon.png" alt=""></div>
+    <p>Sign up to recieve a monthly email on the latest news!</p>
+    <form action="#">
+      <input type="email" placeholder="Your Email Address">
+      <div class="input-img">
+        <i class="fab fa-telegram-plane"></i>
+      </div>
+    </form>
+  </div>
+  <hr>
+  <div class="footer-info">
+    <div class="row">
+      <div class="col-md-3">
+        <h2>Our Information </h2>
+        <ul>
+          <li><a href="#"><i class="fas fa-angle-double-right"></i> About Us</a></li>
+          <li><a href="#"><i class="fas fa-angle-double-right"></i> Contact Us </a></li>
+          <li><a href="#"> <i class="fas fa-angle-double-right"></i>Customer Reviews  </a></li>
+          <li><a href="#"> <i class="fas fa-angle-double-right"></i>Success Stories  </a></li>
+          <li><a href="#"> <i class="fas fa-angle-double-right"></i>Business License </a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h2>My Account </h2>
+        <ul>
+          <li><a href="#"><i class="fas fa-angle-double-right"></i> Manage Account</a></li>
+          <li><a href="#"><i class="fas fa-angle-double-right"></i>Safety Tips </a></li>
+          <li><a href="#"> <i class="fas fa-angle-double-right"></i>Account Varification  </a></li>
+          <li><a href="#"> <i class="fas fa-angle-double-right"></i> Safety & Security   </a></li>
+          <li><a href="#"> <i class="fas fa-angle-double-right"></i>Membership Level  </a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h2>help center  </h2>
+        <ul>
+          <li><a href="#"><i class="fas fa-angle-double-right"></i>  Help centre </a></li>
+          <li><a href="#"><i class="fas fa-angle-double-right"></i>  FAQ </a></li>
+          <li><a href="#"> <i class="fas fa-angle-double-right"></i>Quick Start Guide  </a></li>
+          <li><a href="#"> <i class="fas fa-angle-double-right"></i>Tutorials  </a></li>
+          <li><a href="#"> <i class="fas fa-angle-double-right"></i>Associate Blog  </a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h2>legal</h2>
+        <ul>
+          <li><a href="#"><i class="fas fa-angle-double-right"></i>Privacy policy </a></li>
+          <li><a href="#"><i class="fas fa-angle-double-right"></i>End User Agreements </a></li>
+          <li><a href="#"> <i class="fas fa-angle-double-right"></i> Refund Policy  </a></li>
+          <li><a href="#"> <i class="fas fa-angle-double-right"></i> Cookie policy  </a></li>
+          <li><a href="#"> <i class="fas fa-angle-double-right"></i>Report abuse </a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+  <hr>
+
+  <div class="copy-rigthicons d-flex justify-content-between">
+    <div class="h3">
+      <h3>Copyright © 2021.All Rights Reserved By</h3> <a href="#"> Peyamba</a>
+    </div>
+    <div>
+      <ul class="d-flex">
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</footer>
+
+
+
+
+
+
+
+
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1435 @@
+
+
+
+body{
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+
+.container-fluid{
+    width: 100%;
+    padding: 0 100px;
+}
+
+.custom-bg{
+    background:#5635CA;
+    border-bottom: 1px solid rgba(255, 255, 255,.3);
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+
+ul.our-custom-menu li{
+    padding: 20px;
+}
+ul.our-custom-menu li a i{
+    margin-left: 10px;
+}
+ul.our-custom-menu li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+ul.our-custom-menu li{
+    position: relative;
+}
+ul.our-custom-menu li ul{
+    width: 200px;
+    top:90px;
+    background: white;
+    border-radius: 0 0 50px 0;
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    opacity:0;
+    visibility:hidden;
+    transition: all .6s linear;
+    z-index: 1;
+}
+ul.our-custom-menu li ul > div span{
+    position: absolute;
+    top:-15px;
+    left:20px;
+    
+}
+ul.our-custom-menu li ul > div span i{
+    font-size:40px;
+    color:white;
+}
+ul.our-custom-menu li:hover ul{ 
+    top:60px;
+    opacity:1;
+    visibility:visible;
+    border-radius: 0 50px 0 0 ;
+    z-index: 1;
+
+}
+/* ul.our-custom-menu li{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: red;
+} */
+ul.our-custom-menu li ul li{
+    padding: 8px 20px;
+    position: relative;
+}
+ul.our-custom-menu li ul li a{
+    color: black;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.header-info .user-img{
+     position: relative;
+     padding-left:20px;
+}
+.header-info .user-img > div span i {
+	font-size: 29px;
+	color: white;
+}
+.header-info .user-img > div span{
+    position: absolute;
+    top:0;
+    right:-25px;
+}
+
+.header-info .drop-sec select{
+    width: 40px;
+    appearance: none;
+    padding: 0px 5px;
+    border:none;
+    background: transparent;
+    color: white;
+}
+
+.header-info > div .search-span{
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+.header-info > div .search-span::after {
+	content: '';
+	position: absolute;
+	top: 20px;
+	left: 0;
+	width: 2px;
+	height: 28px;
+	background: white;
+    
+	
+}
+
+.header-info .user-img{
+    position: relative;
+}
+.header-info .user-img:hover ul{
+    opacity: 1;
+    visibility:visible;
+    top:50px;
+} 
+.header-info .user-img ul{
+    width:200px;
+    padding:10px 20px;
+    top:70px;
+    left:-110px;
+    background: white;
+    position: absolute;
+    list-style: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: .6s;
+    z-index: 1;
+    
+}
+.header-info .user-img ul .upper span{
+    position: absolute;
+    top:-16px;
+    right:15px;
+}
+.header-info .user-img ul .upper span i{
+    font-size:40px;
+    color:white;
+}
+.header-info .user-img ul li{
+    padding: 10px 0;
+}
+.header-info .user-img ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+
+/* hero */
+
+.hero-min{
+    position: relative;
+    background:#5635CA;
+    width: 100wh;
+    height: 1000px;
+}   
+.hero-min .hero-ing img{
+    width: 850px;
+    animation: imganimation 6s  infinite;
+    animation-duration: 6s linear;
+}
+@keyframes imganimation{
+    50%{
+        transform: translateX(-50px);
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+
+} 
+.hero-min .hero-ing{
+    position: absolute;
+    top:150px;
+    left:400px;
+}
+.hero-min .headeing h3{
+    font-size: 70px;
+    color: white;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 30px;
+}  
+.hero-min .content .hero-conent{
+    position: relative;
+    margin-top: 800px;
+    margin-left: 100px;
+}
+
+.hero-min .content .hero-conent:after{
+    position: absolute;
+    width: 350px;
+    content: 'Find Love Your Life ';
+    top:-180px;
+    left:40px;
+    color:white;
+    font-size: 60px;
+    text-align: left;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+
+/* .hero-min .content .hero-conent .selec-chek span{
+    margin-right: 20px;
+}
+.hero-min .content .hero-conent .selec-chek > div label{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.hero-min .content .hero-conent .selec-chek .fast-c{
+    margin-right:30px
+} */
+.hero-min .content .hero-conent{
+    width: 400px;
+    background: white;
+    text-align: center;
+    color:white;
+    background: #fff;
+    padding: 23px 0px 30px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 5px #bdc3c7,
+                -2px -2px 5px #bdc3c7;
+}
+
+
+
+
+.hero-min .content .hero-conent .selec-chek-male{
+    color:black;
+    padding: 22px 20px 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+.hero-min .content .hero-conent .selec-chek-man{
+    color:black;
+    padding: 22px 20px 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.hero-min .content .hero-conent .selec-chek-age{
+    color:black;
+    padding: 22px 20px 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.hero-min .content .hero-conent .selec-chek-country{
+    color:black;
+    padding: 22px 20px 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+.hero-min .content .hero-conent .selec-chek-male label {
+	font-size: 20px;
+	margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.hero-min .content .hero-conent .selec-chek-man label{
+    font-size: 20px;
+	margin-left: 10px;
+    text-transform: uppercase;
+
+}
+
+.hero-min .content .hero-conent .selec-chek-age label{
+    font-size: 20px;
+	margin-left: 10px;
+    text-transform: uppercase;
+
+}
+
+
+
+
+
+
+.hero-min .content .hero-conent .selec-chek-male .span {
+	font-size: 18px;
+	margin-right: 20px;
+	font-weight: 700;
+}
+.hero-min .content .hero-conent .selec-chek-man .span {
+	font-size: 18px;
+	margin-right: 20px;
+	font-weight: 700;
+}
+.hero-min .content .hero-conent .selec-chek-age .span {
+	font-size: 18px;
+	margin-right: 20px;
+	font-weight: 700;
+}
+.hero-min .content .hero-conent .selec-chek-country .span {
+	font-size: 18px;
+	margin-right: 20px;
+	font-weight: 700;
+}
+
+.hero-min .content .hero-conent .selec-chek-country .span {
+	font-size: 18px;
+	margin-right: 20px;
+	font-weight: 700;
+}
+
+
+
+.hero-min .content .hero-conent .selec-chek-male .fast-c {
+	margin-right: 30px;
+}
+
+.hero-min .content .hero-conent .selec-chek-man .fast-c{
+    margin-right: 30px;
+}
+
+.hero-min .content .hero-conent .selec-chek-country .fast-c{
+    margin-right: 30px;
+}
+
+
+.hero-min .content .hero-conent .selec-chek-age .fast-age{
+    margin-right: 50px;
+} 
+.hero-min .content .hero-conent .selec-chek-age select{
+    width: 80px;
+    padding: 3px 5px;
+    border-radius: 30px;
+    appearance:none;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.hero-min .content .hero-conent .selec-chek-country select{
+
+    width: 200px;
+    padding:10px;
+    border-radius: 30px;
+    appearance: none;
+    border: none;
+    border:1px solid rgba(0, 0, 0, 0.1);
+
+}
+.hero-min .content .hero-conent .botton-content{
+    margin-top:30px;
+}
+.hero-min .content .hero-conent .botton-content .btn-primary{
+    padding: 10px 60px ;
+    border-radius: 30px;
+    background: linear-gradient(#EA287F,#A32CC9);
+    border: none;
+    transition: .4s;
+    box-shadow: 4px 4px 15px #A32CC9;
+    outline: none;
+    
+
+}
+.hero-min .content .hero-conent .botton-content .btn-primary:hover{
+    background:linear-gradient(#A32CC9,#EA287F);
+    
+}
+/* .hero-min .content .hero-conent .selec-chek-age .fast-select{
+    position: relative;
+}
+
+.hero-min .content .hero-conent .selec-chek-age .fast-select > div {
+    position: absolute;
+    top:0;
+    left:0;
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-min .bg-img{
+    position: relative;
+
+}
+
+.hero-min .content{
+    position: absolute;
+    top:-500px;
+    left:0;
+}
+
+
+
+
+/* hero sub heading */
+
+
+.EASY-STEPS{
+    margin-top: -100px;
+    width:85%;
+    padding: 30px;
+    background: white;
+    box-shadow: 0px 10px 30px 0px rgba(38, 14, 116, 0.4);
+    padding: 50px;
+    border-radius: 100px;
+    position: absolute;
+}
+.EASY-STEPS .content .raund-style .number{
+    width: 50px;
+    height:50px;
+    background:#F664BC;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50px;
+    color:white;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+}
+.EASY-STEPS .content .raund-style .number::after{
+    content: '';
+    position: absolute;
+    width: 60px ;
+    height:60px;
+    background: rgba(246, 100, 188, 0.3);
+    border-radius: 50px;
+    top:-5px;
+    left:-5px;
+    
+}
+.EASY-STEPS .content .raund-style .number::before{
+    content: '';
+    position: absolute;
+    width: 70px ;
+    height:70px;
+    background: rgba(246, 100, 188, 0.3);
+    border-radius: 50px;
+    top:-10px;
+    left:-10px;
+    z-index: -1;
+    
+}
+.EASY-STEPS .content{
+    position: relative;
+
+}
+.EASY-STEPS .content::after {
+	content: '';
+	position: absolute;
+	width: 348px;
+	height: 3px;
+	background: #F664BC;
+	top: 25px;
+}
+
+.EASY-STEPS .content .raund-style p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+    text-align: center;
+}
+.EASY-STEPS .content .raund-style p:last-child{
+    margin-left: -15px;
+}
+.btn-primary{
+    padding: 10px 40px;
+    border-radius: 50px;
+    background:  linear-gradient(166deg, #f22876 0%, #942dd9 100%);
+    box-shadow: 0.872px 9.962px 20px 0px rgba(12, 78, 165, 0.3);
+    border:none;
+    outline:none;
+    
+}
+
+.EASY-STEPS .content-last{
+    margin-top: 30px;
+    
+    
+}
+.EASY-STEPS .content-fast h2{
+        font-size: 25px;
+        font-weight: 700;
+
+}
+
+.EASY-STEPS .content-fast p{
+    font-size: 18px;
+}
+.EASY-STEPS .content-fast{
+    position: relative;
+}
+.EASY-STEPS .content-fast::after {
+	content: '';
+	position: absolute;
+	width: 1px;
+	height: 130px;
+	background: #000000;
+	top: 0;
+	right: 0;
+}
+
+
+
+
+
+
+/* ========================================================================== starting Meet New People Today!=======================
+=====================================================================================================================*/
+
+
+
+
+.Meet-New-People-Today{
+    margin-top: 250px;
+}
+
+
+
+.Meet-New-People-Today .content-fast h3 {
+	font-size: 25px;
+	font-weight: 700;
+	color: #5650CE;
+	margin-bottom: 20px;
+}
+
+
+.Meet-New-People-Today .content-fast h2 {
+	font-size: 50px;
+	font-weight: 700;
+	font-size: px;
+	margin-bottom: 20px;
+}
+
+.Meet-New-People-Today .content-fast .fast-p {
+	font-size: 18px;
+	line-height: 33px;
+}
+.Meet-New-People-Today .content-fast .last-p{
+    font-size: 18px;
+	line-height: 33px;
+    margin-bottom: 50px;
+} 
+
+
+
+
+
+
+
+
+
+.Meet-New-People-Today .content-lest{
+    position: relative;
+}
+.Meet-New-People-Today .content-lest .img-upper-image{
+    position: absolute;
+    top:50px;
+    left:20px;
+}
+
+
+.Meet-New-People-Today .content-lest .carcle-img{
+    animation: carcleimg 4s linear infinite;
+    animation-duration: 4s;
+}
+
+
+@keyframes carcleimg{
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+
+/* ========================================================================== Ending Meet New People Today!=======================
+=====================================================================================================================*/
+
+
+
+
+
+
+
+/*======================================= starting Latest Registered ============================================ */
+
+.starting-Latest-Registered{
+    margin-top: 100px;
+    width: 100%;
+    background: #E1E6FF;
+    padding: 100px 0;
+    height: 400px;
+}
+.starting-Latest-Registered .content-fast h3{
+
+    font-size: 25px;
+    font-weight: 700;
+    color:#5650CE;
+    margin-bottom:25px;
+}
+.starting-Latest-Registered .content-fast{
+    position: relative;
+}
+.starting-Latest-Registered .content-fast-and::after {
+	content: '';
+	position: absolute;
+	width: 1px;
+	height: 227px;
+	background: black;
+	top: 0;
+	right: -19px;
+}
+.starting-Latest-Registered .content-fast h2{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.starting-Latest-Registered .content-fast p{
+    font-size: 17px;
+}
+
+
+.starting-Latest-Registered .content-last .content-fast h2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.starting-Latest-Registered .content-last .content-fast h4{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*======================================= Ending Latest Registered ============================================ */
+
+
+
+
+
+
+
+
+
+
+/*======================================= starting Amazing Features ============================================ */
+
+
+.Amazing-Features {
+    margin-top: 100px;
+    
+}
+.Amazing-Features .content{
+    text-align: center;
+}
+.Amazing-Features .content h4{
+
+    font-weight: 700;
+    color:#5650CE ;
+    margin-bottom: 20px;
+}
+
+
+
+.Amazing-Features .content h2{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.Amazing-Features .content p{
+
+    font-size: 18px;
+}
+.Amazing-Features .content-img{
+    position: relative;
+    left:-140px;
+    top:0;
+}
+
+
+.Amazing-Features .left-right-content .content-img img{
+    width: 100%;
+}
+
+.Amazing-Features .left-right-content{
+    margin-top: 100px;
+}
+
+.Amazing-Features .left-right-content .content-img::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(86, 80, 206,.7);
+	top: 0px;
+	left:0px;
+	border-radius: 20px;
+}
+
+.Amazing-Features .left-right-content .content-img .iner-img-info{
+    position: absolute;
+    top:150px;
+    right:-100px;
+    z-index: 1;
+    text-align: center;
+    width: 250px;
+    height:250px;
+    border-radius: 200px;
+    background:linear-gradient(166deg, #f22876 0%, #942dd9 100%);
+    color: white;
+}
+.Amazing-Features .left-right-content .content-img .iner-img-info::after {
+	content: '';
+	position: absolute;
+	width: 270px;
+	height: 270px;
+	top: -10px;
+	left: -10px;
+	border-radius: 200px;
+	background: rgba(222, 41, 138, 0.781);
+    animation: gradiantanimation 3s linear infinite;
+    animation-duration:  2s;
+}
+
+@keyframes gradiantanimation {
+    0%{
+        transform: scale(1);
+        opacity: 0;
+    }
+    40%{
+        transform: scale(1.1);
+        opacity: .6;
+    }
+    60%{
+        transform: scale(1.2);
+        opacity: .4;
+    }
+    80%{
+        transform: scale(1.3);
+        opacity: .2;
+    }
+    100%{
+        transform: scale(1.4);
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+.Amazing-Features .left-right-content .content-img .iner-img-info .content-items{
+    margin-top: 70px;
+    
+}
+.Amazing-Features .left-right-content .content-img .iner-img-info .content-items h5{
+    font-size: 18px;
+}
+.Amazing-Features .left-right-content .content-img .iner-img-info .content-items h4{
+    font-size: 18px;
+}
+.Amazing-Features .left-right-content .content-img .iner-img-info .content-items h3{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.Amazing-Features .left-right-content .content-right-content .left-img-content{
+    
+    margin-bottom:20px ;
+    border-bottom: 1px solid #CECECE;
+
+    
+}
+.Amazing-Features .left-right-content .content-right-content .left-img-content h2{
+    
+    font-size: 25px;
+    font-weight:700;
+    
+
+
+}
+.Amazing-Features .left-right-content .content-right-content .left-img-content p{
+    
+    font-size:18px;
+    margin-bottom: 20px;
+
+}
+.Amazing-Features .left-right-content .content-right-content .img{
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    background: #faeffa;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 30px;
+    transition:all .3s linear;
+}
+
+.Amazing-Features .left-right-content .content-right-content .img:hover{
+    background: white;
+    box-shadow: 0.872px 9.962px 20px 0px rgba(12, 78, 165, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================= Ending Amazing Features  ============================================ */
+
+
+
+
+
+/*======================================= Stating Best Ways to Find Your True Sole Mate   ============================================ */
+.Best-Ways{
+    width: 100%;
+    height: 450px;
+    background:#5736CB ;
+    position: relative;
+    overflow: hidden;
+    top:100px
+}
+.Best-Ways::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background: url(../image/heartshape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: loveanimation 5s linear infinite;
+    animation-duration: 4s;
+
+}
+
+@keyframes loveanimation{
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+
+
+.Best-Ways .content{
+    position: absolute;
+}
+
+.Best-Ways .content .content-fast{
+    margin-top: 150px;
+}
+.Best-Ways .content .content-fast h2{
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.Best-Ways .content .content-last{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================= Ending Best Ways to Find Your True Sole Mate  ============================================ */
+
+
+
+.Success-Stories .content{
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+.Success-Stories .content h4{
+
+    font-weight: 700;
+    color:#5650CE ;
+    margin-bottom: 20px;
+}
+
+
+
+.Success-Stories .content h2{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.Success-Stories .content p{
+
+    font-size: 18px;
+}
+
+
+
+.Success-Stories .content-fast{
+    width: 350px;
+    background: white;
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+    transition: .5s;
+    overflow:hidden;
+    
+            
+             
+}
+.Success-Stories .content-fast img{
+    width: 100%;
+    transition: .5s;
+}
+.Success-Stories .content-fast:hover img{
+    transform: scale(1.1);
+}
+.Success-Stories .content-fast:hover{
+    box-shadow:  10px 10px 30px #4843ad56,
+                -10px -10px 30px #4843ad56;
+    
+}
+.Success-Stories .content-fast::after {
+	content: '';
+	position: absolute;
+	width: 350px;
+	height: 1px;
+	background: #E5E5E5;
+	top: 416px;
+	left: 0px;
+	
+}
+.Success-Stories .content-fast{
+    margin-top: 100px;
+}
+.Success-Stories .content-fast .info{
+    padding: 30px;
+    
+}
+
+.Success-Stories .content-fast .info h5{
+    font-size: 16px;
+}
+
+.Success-Stories .content-fast .info h2{
+
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.Success-Stories .content-fast .info p{
+    margin-bottom: 40px;
+}
+
+.Success-Stories .content-fast .info .left-image > div i{
+    margin-right:10px ;
+    color: #A82E99;
+}
+.Success-Stories .content-fast .info .left-image > div span{
+    font-size: 19px;
+    
+}
+
+
+
+
+
+
+/* People joined already!  */
+
+.People-joined-already{
+    background: url(../image/h2-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height:600px;
+    margin-top: 100px;
+    
+
+}
+.People-joined-already .content{
+    text-align: center;
+    
+}
+.People-joined-already .content {
+   
+    color: white;
+}
+
+.People-joined-already .content{
+    padding: 100px 0;
+}
+
+.People-joined-already .content h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.People-joined-already .content h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #FF3366;
+}
+
+.People-joined-already .content-lest{
+    text-align: center;
+    color:white;
+}
+
+.People-joined-already .content-lest h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.People-joined-already .content-lest h4{
+    font-size: 18px;
+}
+
+
+
+
+
+/* Love in faith  */
+
+.Love-in-faith {
+    background: url(../image/subg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:600px;
+}
+.Love-in-faith .content{
+    text-align: center;
+    color:white;
+    padding-top:100px ;
+}
+
+.Love-in-faith .content h4{
+    font-size: 22px;
+    font-weight: 700;
+}
+.Love-in-faith .content h2{
+
+    font-size: 50px;
+    font-weight: 700;
+}
+.Love-in-faith .card-section .card1 img{
+    margin-bottom: 40px;
+    border-radius: 20px 20px 0 0 ;
+
+}
+.Love-in-faith .card-section .card1{
+    width:350px;
+    background: white;
+    transition: .4s;
+    border-radius: 20px;        
+    
+}
+.Love-in-faith .card-section .card1{
+    position: relative;
+}
+.Love-in-faith .card-section .card1 .extra-img img{
+    border: 5px solid #942dd9 ;
+    border-radius: 50px;
+    
+    
+}
+.Love-in-faith .card-section .card1 .extra-img{
+    position: relative;
+    z-index: 1;
+}
+.Love-in-faith .card-section .card1 .extra-img::after {
+	content: '';
+	top: -5px;
+	left: -5px;
+	width: 80px;  
+	height: 80px;
+	background: linear-gradient(166deg, rgba(148, 45, 217,.5)  0%, rgba(242, 40, 118,.5) 100%);
+	position: absolute;
+	border-radius: 50%;
+	z-index: -1;
+}
+
+
+.Love-in-faith .card-section .col-md-4{
+    margin-top: 100px;
+}
+.Love-in-faith .card-section .card1 .extra-img::before {
+	content: '';
+	top: -12px;
+	left: -12px;
+	width: 95px;
+	height: 95px;
+	background: linear-gradient(166deg, rgba(148, 45, 217,.5) 0%, rgba(242, 40, 118,.5) 100%);
+	position: absolute;
+	border-radius: 50%;
+	z-index: -1;
+}
+.Love-in-faith .card-section .card1 .extra-img {
+	position: absolute;
+	top: 210px;
+	left: 150px;
+}
+.Love-in-faith .card-section .card1:hover{
+    box-shadow: 8px 8px 30px #5650ce5d,
+    -8px -8px 30px #5650ce5d;
+}
+.Love-in-faith .card-section .card1 .img-info{
+    padding: 30px;
+}
+
+.Love-in-faith .card-section .card1 .img-info h2{
+    font-size:22px;
+    font-weight: 700;
+    line-height:35px;
+    margin-bottom: 20px;
+
+
+}
+.Love-in-faith .card-section .card1 .img-info h4{
+    font-size:18px;
+    margin-bottom: 30px;
+}
+
+.Love-in-faith .card-section .card1 .img-info .icons i{
+    margin-right:10px ;
+    color: #9B30A5;
+}
+
+.Love-in-faith .card-section .card1 .img-info .link-tag a{
+
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+/* Upgrade Your Profile  */
+
+
+
+.Upgrade-Your-Profile{
+    margin-top: 400px;
+}
+
+.Upgrade-Your-Profile .custom h4{
+    font-weight: 700;
+    color: #5650CE;
+    margin-bottom: 20px;
+}
+
+.Upgrade-Your-Profile .custom h2{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.Upgrade-Your-Profile .custom P{
+    margin-bottom: 60px;
+}
+.Upgrade-Your-Profile .custom{
+    margin-top: 150px;
+}
+
+
+
+
+
+
+/* Sign up to recieve a monthly email on the latest news! */
+
+
+
+.Sign-up-to-recieve{
+    width: 100%;
+    height: 1230px;
+    background: #3B2196;
+    margin-top: 100px;
+    position: relative;
+}
+
+.Sign-up-to-recieve::after{
+    content: '';
+    position: absolute;
+    background: url(../image/f-shape.png);
+    width: 100%;
+    height:200px;
+    top:0;
+    left:0;
+}
+
+
+
+
+
+
+
+
+
+
+.Sign-up-to-recieve .content-em-input{
+    text-align: center;
+    position: relative;
+    top:130px;
+    z-index: 1;
+}
+
+.Sign-up-to-recieve .content-em-input .email{
+    
+    margin-left: 500px;
+    text-align: center;
+    line-height: 150px;
+    width:150px;
+    height:150px;
+    background: #E12988;
+    border-radius: 100px;
+    margin-bottom: 40px;
+    
+}
+
+.Sign-up-to-recieve .content-em-input p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.Sign-up-to-recieve .content-em-input form{
+    width:600px;
+    height: 50px;
+    background: white;
+    border-radius: 30px;
+}
+.Sign-up-to-recieve .content-em-input form{
+    position: relative;
+    left:270px;
+} 
+.Sign-up-to-recieve .content-em-input form input{
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    padding-left:10px;
+    border-radius: 30px;
+    border: none;
+    outline:none;
+    padding: 0 40px;
+    padding-right: 60px;
+    background: #4126A1;
+    border: 1px solid rgba(255, 255, 255,.6);
+    color: white;
+}
+
+.Sign-up-to-recieve .content-em-input form input::placeholder{
+    color: white;
+}
+.Sign-up-to-recieve .content-em-input form .input-img img{
+    width:30px
+}
+.Sign-up-to-recieve .content-em-input form .input-img{
+
+    position: absolute;
+    width: 40px;
+    height:40px;
+    background: #DE298B;
+    text-align: center;
+    border-radius: 50px;
+    top:5px;
+    right: 5px;
+    
+}
+.Sign-up-to-recieve .content-em-input form .input-img{
+    position: absolute;
+}
+
+
+.Sign-up-to-recieve .content-em-input form .input-img i{
+    font-size: 25px;
+    color: white;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.Sign-up-to-recieve hr{
+    margin-top: 200px;
+    color: white;
+}
+
+.Sign-up-to-recieve .footer-info h2{
+    color: #E5E1F1;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.Sign-up-to-recieve .footer-info ul{
+    list-style: none;
+    padding: 0;
+    
+}
+    
+.Sign-up-to-recieve .footer-info ul li {
+    transition: .5s;
+    margin-bottom: 10px;
+}
+.Sign-up-to-recieve .footer-info ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    display: inline-block;
+    transition: .3s;
+}
+.Sign-up-to-recieve .footer-info ul li:hover a{
+    transform: translatex(10px);
+    color: #C91647;
+}
+
+.Sign-up-to-recieve .footer-info ul li a i{
+    margin-right: 10px;
+}
+
+.Sign-up-to-recieve .footer-info{
+    margin-top: 100px;
+}
+
+.Sign-up-to-recieve .copy-rigthicons .h3 h3{
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+}
+
+.Sign-up-to-recieve .copy-rigthicons .h3 a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #C91647;
+}
+
+.Sign-up-to-recieve .copy-rigthicons ul{
+    
+    list-style: none;
+}
+.Sign-up-to-recieve .copy-rigthicons ul li{
+    padding-left: 15px;
+    list-style: none;
+    
+}
+
+.Sign-up-to-recieve .copy-rigthicons ul li a i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: linear-gradient(#E62983,#A72CC5);
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.Sign-up-to-recieve hr{
+    margin-bottom: 50px;
+}
